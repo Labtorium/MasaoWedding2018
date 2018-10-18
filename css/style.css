@@ -1,0 +1,131 @@
+body {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ddd;
+  font-family: 'Hiragino Maru Gothic ProN', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(46,47,51);
+}
+
+#section1 {
+  width: 100%;
+  height: 310px;
+}
+
+#dummy {
+  width: 100%;
+  height: 50px;
+}
+
+#masao {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#masao_name {
+  width: 70%;
+  height: 60px;
+  font-size: 58px;
+  font-weight: bold;
+  color: rgb(83,194,197);
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+#masao_heart_wrapper {
+  width: 35%;
+  height: 190px;
+  float: left;
+}
+
+#masao_bpm_wrapper {
+  width: 65%;
+  height: 190px;
+  float: left;
+}
+
+#masao_heart {
+  margin: 60px auto;
+  color: rgb(83,194,197);
+  font-size: 4em;
+  text-align: center;
+}
+
+#masao_bpm {
+  color: rgb(83,194,197);
+  font-size: 110px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#yukiko {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#yukiko_name {
+  width: 70%;
+  height: 60px;
+  font-size: 58px;
+  font-weight: bold;
+  color: rgb(234,72,119);
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+#yukiko_heart_wrapper {
+  width: 35%;
+  height: 190px;
+  float: left;
+}
+
+#yukiko_bpm_wrapper {
+  width: 65%;
+  height: 190px;
+  float: left;
+}
+
+#yukiko_heart {
+  margin: 60px auto;
+  color: rgb(234,72,119);
+  font-size: 4em;
+  text-align: center;
+}
+
+#yukiko_bpm {
+  color: rgb(234,72,119);
+  font-size: 110px;
+  text-align: center;
+  margin-top: 30px; 
+}
+
+.Heart1{
+  animation: anime1 3s reverse infinite;
+}
+
+@keyframes anime1{
+0% { transform: scale(1); }
+60% { transform: scale(1); }
+70% { transform: scale(1.3); }
+80% { transform: scale(1); }
+90% { transform: scale(1.3); }
+100% { transform: scale(1); }
+}
+
+#graph {
+  width: 100%;
+  height: 550px;
+  background-color: rgb(46,47,51);
+}
+
+div.svg-container {
+  background-color: rgb(46,47,51);
+}
